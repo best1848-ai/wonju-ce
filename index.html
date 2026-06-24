@@ -19,7 +19,7 @@
   --border:rgba(27,38,49,0.12);--radius:4px;
 }
 html{scroll-behavior:smooth}
-body{font-family:'DM Sans','Noto Sans KR',sans-serif;font-size:33px;line-height:1.7;color:var(--text-primary);background:var(--white);-webkit-font-smoothing:antialiased}
+body{font-family:'DM Sans','Noto Sans KR',sans-serif;font-size:22px;line-height:1.8;color:var(--text-primary);background:var(--white);-webkit-font-smoothing:antialiased}
 body.ko{font-family:'Noto Sans KR','DM Sans',sans-serif}
 
 /* i18n */
@@ -29,101 +29,101 @@ body.ko [data-en]{display:none!important}
 /* LANG TOGGLE */
 .lang-toggle{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.18);border-radius:20px;padding:8px 18px 8px 12px;cursor:pointer;transition:background 0.2s;user-select:none;position:absolute;right:1.5rem;top:50%;transform:translateY(-50%)}
 .lang-toggle:hover{background:rgba(255,255,255,0.18)}
-.flag{font-size:36px;line-height:1}
-.lang-label{font-size:24px;color:rgba(255,255,255,0.8);font-weight:500;letter-spacing:0.04em}
+.flag{font-size:18px;line-height:1}
+.lang-label{font-size:16px;color:rgba(255,255,255,0.8);font-weight:500;letter-spacing:0.04em}
 
 /* NAV */
 nav{position:sticky;top:0;z-index:100;background:var(--steel);border-bottom:1px solid rgba(255,255,255,0.08);padding:0 2rem;display:flex;flex-direction:column;align-items:center;justify-content:center;height:120px;gap:10px;position:relative}
-.nav-logo{font-size:45px;font-weight:700;color:var(--white);letter-spacing:0.04em;text-decoration:none;text-align:center}
+.nav-logo{font-size:28px;font-weight:700;color:var(--white);letter-spacing:0.04em;text-decoration:none;text-align:center}
 .nav-logo span{color:var(--amber-light)}
 .nav-links{display:flex;gap:3rem;list-style:none;align-items:center;justify-content:center}
-.nav-links a{color:rgba(255,255,255,0.7);text-decoration:none;font-size:33px;font-weight:400;transition:color 0.2s;letter-spacing:0.01em}
+.nav-links a{color:rgba(255,255,255,0.7);text-decoration:none;font-size:22px;font-weight:400;transition:color 0.2s;letter-spacing:0.01em}
 .nav-links a:hover{color:var(--white)}
-.nav-cta{background:var(--amber);color:var(--white)!important;padding:12px 28px;border-radius:var(--radius);font-weight:600!important;font-size:30px!important}
+.nav-cta{background:var(--amber);color:var(--white)!important;padding:12px 28px;border-radius:var(--radius);font-weight:600!important;font-size:20px!important}
 .nav-cta:hover{background:var(--amber-light)!important}
 
 /* HERO */
 .hero{background:var(--steel);color:var(--white);padding:100px 4rem 90px;position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,0.015) 0,rgba(255,255,255,0.015) 1px,transparent 1px,transparent 80px);pointer-events:none}
 .hero-inner{max-width:1400px;margin:0 auto;position:relative}
-.hero-company{font-size:clamp(60px,7.5vw,120px);font-weight:600;color:var(--white);letter-spacing:-0.01em;margin-bottom:12px;line-height:1}
-.hero-badge{display:inline-block;font-size:36px;font-weight:500;letter-spacing:0.04em;text-transform:none;color:var(--amber-light);border:1px solid rgba(245,166,35,0.35);padding:12px 28px;border-radius:4px;margin-bottom:36px}
-.hero h1{font-size:clamp(45px,6.0vw,87px);font-weight:300;line-height:1.1;letter-spacing:-0.02em;margin-bottom:26px;max-width:680px}
+.hero-company{font-size:clamp(56px,7vw,100px);font-weight:600;color:var(--white);letter-spacing:-0.01em;margin-bottom:12px;line-height:1}
+.hero-badge{display:inline-block;font-size:18px;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;color:var(--amber-light);border:1px solid rgba(245,166,35,0.35);padding:12px 28px;border-radius:4px;margin-bottom:36px}
+.hero h1{font-size:clamp(36px,4.5vw,68px);font-weight:300;line-height:1.1;letter-spacing:-0.02em;margin-bottom:26px;max-width:680px}
 .hero h1 strong{font-weight:500;color:var(--amber-light)}
-.hero-sub{font-size:33px;color:rgba(255,255,255,0.56);max-width:540px;margin-bottom:44px;font-weight:300;line-height:1.85}
+.hero-sub{font-size:24px;color:rgba(255,255,255,0.65);max-width:700px;margin-bottom:44px;font-weight:300;line-height:1.7;word-break:keep-all}
 .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
-.btn-primary{background:var(--amber);color:var(--white);padding:16px 34px;border-radius:var(--radius);text-decoration:none;font-weight:500;font-size:28px;transition:background 0.2s;display:inline-block}
+.btn-primary{background:var(--amber);color:var(--white);padding:14px 30px;border-radius:var(--radius);text-decoration:none;font-weight:500;font-size:21px;transition:background 0.2s;display:inline-block}
 .btn-primary:hover{background:var(--amber-light)}
-.btn-ghost{border:1px solid rgba(255,255,255,0.28);color:var(--white);padding:16px 34px;border-radius:var(--radius);text-decoration:none;font-size:28px;transition:all 0.2s;display:inline-block}
+.btn-ghost{border:1px solid rgba(255,255,255,0.28);color:var(--white);padding:14px 30px;border-radius:var(--radius);text-decoration:none;font-size:21px;transition:all 0.2s;display:inline-block}
 .btn-ghost:hover{border-color:rgba(255,255,255,0.65);background:rgba(255,255,255,0.06)}
 
 /* AWARDS */
 .awards-strip{background:var(--dust);border-bottom:1px solid var(--border);padding:72px 4rem}
 .awards-inner{max-width:1400px;margin:0 auto}
-.awards-eyebrow{font-size:60px;font-weight:600;letter-spacing:0.02em;text-transform:none;color:var(--amber);margin-bottom:32px}
+.awards-eyebrow{font-size:18px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber);margin-bottom:24px}
 .awards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1px;background:var(--border)}
-.award-item{background:var(--white);padding:36px 32px;display:flex;gap:14px;align-items:flex-start}
+.award-item{background:var(--white);padding:36px 32px;word-break:keep-all;display:flex;gap:14px;align-items:flex-start}
 .award-icon{width:54px;height:54px;background:var(--steel);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
 .award-icon svg{width:28px;height:28px;fill:var(--amber-light)}
-.award-title{font-size:42px;font-weight:500;color:var(--steel);margin-bottom:3px;line-height:1.35}
-.award-by{font-size:33px;color:var(--text-muted);line-height:1.5}
+.award-title{font-size:22px;font-weight:500;color:var(--steel);margin-bottom:6px;line-height:1.35;word-break:keep-all}
+.award-by{font-size:20px;color:var(--text-muted);line-height:1.5;word-break:keep-all}
 
 /* STATS */
 .stats-strip{background:var(--steel-mid);padding:52px 4rem}
 .stats-inner{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:0}
 .stat{padding:0 40px;border-left:1px solid rgba(255,255,255,0.12)}
 .stat:first-child{border-left:none;padding-left:0}
-.stat-num{font-size:96px;font-weight:300;color:var(--white);line-height:1;margin-bottom:4px;letter-spacing:-0.02em}
+.stat-num{font-size:68px;font-weight:300;color:var(--white);line-height:1;margin-bottom:4px;letter-spacing:-0.02em}
 .stat-num em{color:var(--amber-light);font-style:normal;font-weight:500}
-.stat-label{font-size:30px;color:rgba(255,255,255,0.42);letter-spacing:0.06em;text-transform:uppercase}
+.stat-label{font-size:20px;color:rgba(255,255,255,0.42);letter-spacing:0.06em;text-transform:uppercase}
 
 /* SECTION */
 .section{padding:96px 4rem}
 .section-inner{max-width:1400px;margin:0 auto}
 .section-alt{background:var(--dust);padding:96px 4rem}
-.eyebrow{font-size:60px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;color:var(--amber);margin-bottom:10px}
-.section-title{font-size:clamp(48px,6.0vw,84px);font-weight:300;letter-spacing:-0.02em;line-height:1.2;margin-bottom:16px;color:var(--steel)}
+.eyebrow{font-size:18px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber);margin-bottom:16px}
+.section-title{font-size:clamp(36px,4vw,58px);font-weight:300;letter-spacing:-0.02em;line-height:1.2;margin-bottom:16px;color:var(--steel)}
 .section-title strong{font-weight:500}
-.section-body{font-size:30px;color:var(--text-secondary);max-width:760px;line-height:1.85}
+.section-body{font-size:22px;color:var(--text-secondary);max-width:760px;line-height:1.85}
 
 /* ABOUT GRID */
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start;margin-top:40px}
-.about-text p{color:var(--text-secondary);margin-bottom:16px;font-size:32px;line-height:1.85}
+.about-text p{color:var(--text-secondary);margin-bottom:16px;font-size:22px;line-height:1.85}
 .fact-row{display:flex;gap:13px;padding:15px 0;border-bottom:1px solid var(--border)}
 .fact-row:first-child{border-top:1px solid var(--border)}
 .fact-icon{width:32px;height:32px;border-radius:50%;background:var(--steel);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
 .fact-icon svg{width:14px;height:14px;fill:var(--amber-light)}
-.fact-title{font-size:28px;font-weight:500;color:var(--steel);margin-bottom:2px}
-.fact-desc{font-size:26px;color:var(--text-muted);line-height:1.6}
+.fact-title{font-size:21px;font-weight:500;color:var(--steel);margin-bottom:4px}
+.fact-desc{font-size:19px;color:var(--text-muted);line-height:1.7}
 
 /* EQUIPMENT */
 .equipment-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);margin-top:40px}
 .equip-card{background:var(--white);padding:26px 22px}
-.equip-tag{display:inline-block;font-size:22px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber);border:1px solid rgba(212,130,10,0.35);padding:3px 9px;border-radius:2px;margin-bottom:12px}
-.equip-name{font-size:39px;font-weight:500;color:var(--steel);margin-bottom:7px;line-height:1.2}
-.equip-desc{font-size:28px;color:var(--text-muted);line-height:1.7}
+.equip-tag{display:inline-block;font-size:16px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber);border:1px solid rgba(212,130,10,0.35);padding:3px 9px;border-radius:2px;margin-bottom:12px}
+.equip-name{font-size:20px;font-weight:500;color:var(--steel);margin-bottom:7px;line-height:1.2}
+.equip-desc{font-size:21px;color:var(--text-muted);line-height:1.7}
 
 /* PROCESS */
 .process-list{margin-top:40px}
 .process-item{display:grid;grid-template-columns:50px 1fr;gap:18px;padding:26px 0;border-bottom:1px solid var(--border);align-items:start}
 .process-item:first-child{border-top:1px solid var(--border)}
 .process-num{font-family:'DM Mono',monospace;font-size:18px;color:var(--amber);padding-top:3px;letter-spacing:0.06em}
-.process-title{font-size:34px;font-weight:500;color:var(--steel);margin-bottom:5px}
-.process-desc{font-size:30px;color:var(--text-secondary);line-height:1.8}
+.process-title{font-size:26px;font-weight:500;color:var(--steel);margin-bottom:8px}
+.process-desc{font-size:22px;color:var(--text-secondary);line-height:1.8}
 
 /* WHY */
 .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:26px;margin-top:40px}
 .why-icon{width:36px;height:36px;background:var(--steel);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;margin-bottom:13px}
 .why-icon svg{width:18px;height:18px;fill:var(--amber-light)}
-.why-title{font-size:32px;font-weight:500;color:var(--steel);margin-bottom:5px}
-.why-desc{font-size:28px;color:var(--text-muted);line-height:1.7}
+.why-title{font-size:23px;font-weight:500;color:var(--steel);margin-bottom:8px}
+.why-desc{font-size:21px;color:var(--text-muted);line-height:1.7}
 
 /* CONTACT */
 .contact-section{background:var(--steel);padding:96px 4rem}
 .contact-inner{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
 .contact-left .eyebrow{color:var(--amber-light)}
 .contact-left .section-title{color:var(--white)}
-.contact-left .section-body{color:rgba(255,255,255,0.5);font-size:33px}
+.contact-left .section-body{color:rgba(255,255,255,0.5);font-size:17px}
 .contact-methods{display:flex;flex-direction:column;gap:16px;margin-top:36px}
 .contact-method{display:flex;align-items:center;gap:18px;padding:22px 24px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:var(--radius);text-decoration:none;transition:all 0.2s}
 .contact-method:hover{background:rgba(255,255,255,0.09);border-color:rgba(255,255,255,0.22)}
@@ -133,12 +133,12 @@ nav{position:sticky;top:0;z-index:100;background:var(--steel);border-bottom:1px 
 .icon-kakao{background:#FEE500}
 .icon-mail{background:rgba(255,255,255,0.1)}.icon-phone{background:rgba(255,255,255,0.15)}
 .icon-mail svg{fill:rgba(255,255,255,0.7)}
-.method-label{font-size:27px;color:rgba(255,255,255,0.36);letter-spacing:0.06em;text-transform:uppercase;margin-bottom:1px}
-.method-value{font-size:39px;color:var(--white)}
-.contact-note{margin-top:18px;font-size:30px;color:rgba(255,255,255,0.3);line-height:1.7}
+.method-label{font-size:18px;color:rgba(255,255,255,0.36);letter-spacing:0.06em;text-transform:uppercase;margin-bottom:1px}
+.method-value{font-size:20px;color:var(--white)}
+.contact-note{margin-top:18px;font-size:20px;color:rgba(255,255,255,0.3);line-height:1.7}
 .info-block{border-left:4px solid var(--amber);padding-left:26px;margin-bottom:40px}
-.info-block-label{font-size:30px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.36);margin-bottom:4px}
-.info-block-value{font-size:42px;color:rgba(255,255,255,0.8);line-height:1.65}
+.info-block-label{font-size:18px;letter-spacing:0.06em;text-transform:uppercase;color:rgba(255,255,255,0.36);margin-bottom:4px}
+.info-block-value{font-size:26px;color:rgba(255,255,255,0.8);line-height:1.65}
 
 /* PHOTO GALLERY */
 .photo-strip{padding:0;overflow:hidden;line-height:0}
@@ -195,7 +195,7 @@ footer a:hover{color:rgba(255,255,255,0.65)}
     <h1 data-ko>신뢰로 쌓은 <strong>25년</strong><br>굴삭기 전문 파트너</h1>
     <div class="hero-company" data-en>Wonju Construction Equipment Co., Ltd.</div>
     <h1 data-en>25 years of trust —<br><strong>your excavator partner in Korea</strong></h1>
-    <p class="hero-sub" data-ko>원주건설기계는 굴삭기 판매·렌탈·수출 전문 기업입니다. 볼보건설기계 우수협력업체로서, 국내외 고객 모두에게 정직하고 전문적인 서비스를 제공합니다.</p>
+    <p class="hero-sub" data-ko>굴삭기 판매·렌탈·수출 전문 기업. 볼보건설기계 우수협력업체.</p>
     <p class="hero-sub" data-en>Wonju Construction Equipment specializes in used excavator sales, rental, and export. As a Volvo CE outstanding partner, we deliver honest and professional service to domestic and overseas buyers alike.</p>
     <div class="hero-actions">
       <a href="#contact" class="btn-primary" data-ko>문의하기</a>
@@ -219,7 +219,7 @@ footer a:hover{color:rgba(255,255,255,0.65)}
         <div>
           <div class="award-title" data-ko>2025년 협력업체 우수상</div>
           <div class="award-title" data-en>2025 Outstanding Partner Award</div>
-          <div class="award-by" data-ko>볼보그룹코리아(주) 건설기계 · 2026년 6월 수여</div>
+          <div class="award-by" data-ko>볼보그룹코리아(주) 건설기계<br>2026년 6월 수여</div>
           <div class="award-by" data-en>Volvo Group Korea CE Division · Awarded June 2026</div>
         </div>
       </div>
@@ -236,7 +236,7 @@ footer a:hover{color:rgba(255,255,255,0.65)}
         <div>
           <div class="award-title" data-ko>볼보 감사패 수상</div>
           <div class="award-title" data-en>Volvo CE Certificate of Appreciation</div>
-          <div class="award-by" data-ko>볼보그룹코리아(주) 건설기계 국내영업서비스 · 2025년 9월</div>
+          <div class="award-by" data-ko>볼보그룹코리아(주) 건설기계<br>국내영업서비스 · 2025년 9월</div>
           <div class="award-by" data-en>Volvo Group Korea CE Sales &amp; Service · September 2025</div>
         </div>
       </div>
@@ -316,8 +316,8 @@ footer a:hover{color:rgba(255,255,255,0.65)}
           <div>
             <div class="fact-title" data-ko>수출 서류 일괄 처리</div>
             <div class="fact-title" data-en>Full export documentation</div>
-            <div class="fact-desc" data-ko>상업송장, 포장명세서, 위임장, 법인인감증명서 등</div>
-            <div class="fact-desc" data-en>Commercial invoice, packing list, POA, corporate seal cert &amp; more</div>
+            <div class="fact-desc" data-ko>상업송장, 포장명세서, 수출말소 등</div>
+            <div class="fact-desc" data-en>Commercial invoice, packing list, export deregistration &amp; more</div>
           </div>
         </div>
         <div class="fact-row">
